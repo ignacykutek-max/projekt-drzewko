@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff176; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.naglowek {
+    background: #00c853; 
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.naglowek h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.pasek-nawigacji ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.link-menu:hover {
+    opacity: 0.5;
+}
+
+.link-menu.aktywny {
+    color: #ff0000; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.kontener {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+
+.glowny-blok {
+    background-color: #ffb74d; 
+    width: 100%;
+    max-width: 550px; 
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+
+.sekcja, .wstep, .tekst-lista, .dane-kontaktowe, .kategoria-konkursu {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    line-height: 1.6;
+}
+
+.linia-oddzielajaca {
+    height: 2px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 10px 0;
+}
+
+
+.element-listy {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.kropka {
+    width: 8px;
+    height: 8px;
+    background-color: #d32f2f;
+    border-radius: 50%;
+}
+
+
+.sekcja-galerii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.zdjecie-blok {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.zdjecie-blok h3 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.ramka-img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.ramka-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.formularz-kontaktowy form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formularz-kontaktowy input, 
+.formularz-kontaktowy textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+.formularz-kontaktowy button {
+    padding: 12px;
+    background-color: #00c853;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formularz-kontaktowy button:hover {
+    background-color: #009624;
+}
+
+
+.stopka {
+    background-color: #009624; 
+    color: white;
+    padding: 20px 0;
+}
+
+.info-stopka {
+    display: flex;
+    justify-content: space-around;
+    max-width: 550px;
+    margin: 0 auto;
+    font-weight: bold;
+}
